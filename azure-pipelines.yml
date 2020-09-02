@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Weltgeist' #Testing with self-hosted agent
+  vmImage: 'windows-latest' #Testing with self-hosted agent
 
 steps:
 - script: |

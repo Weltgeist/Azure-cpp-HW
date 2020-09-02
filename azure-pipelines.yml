@@ -21,7 +21,9 @@ steps:
   displayName: 'Run a build script'
 
 - script: |
-    ./build/hello-world.exe
+    cd build
+    build/hello-world.exe
+    cd ..
   displayName: 'Run Display task'
 
 - script: |

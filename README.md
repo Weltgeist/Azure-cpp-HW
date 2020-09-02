@@ -1,1 +1,1 @@
-A simple test folder for azure C++ pipeline.
+A simple test folder for azure C++ pipeline.git 

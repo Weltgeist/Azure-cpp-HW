@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'Weltgeist' #Testing with self-hosted agent
 
 steps:
 - script: |

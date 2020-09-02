@@ -16,7 +16,8 @@ steps:
     ls
     mkdir ./build
     ls
-    g++ -g ./src/hello-world.cpp -o ./build/hello-world.exe
+    g++ ./src/hello-world.cpp
+#-g ./src/hello-world.cpp -o ./build/hello-world.exe
   displayName: 'Run a build script'
 
 - script: |

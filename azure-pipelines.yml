@@ -22,7 +22,7 @@ steps:
 
 - script: |
     cd build
-    build/hello-world.exe
+    hello-world.exe
     cd ..
   displayName: 'Run Display task'
 

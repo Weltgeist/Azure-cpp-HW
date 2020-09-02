@@ -13,7 +13,9 @@ pool:
 
 steps:
 - script: |
+    ls
     mkdir ./build
+    ls
     g++ -g ./src/hello-world.cpp -o ./build/hello-world.exe
   displayName: 'Run a build script'
 

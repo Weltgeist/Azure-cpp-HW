@@ -15,10 +15,9 @@ steps:
 - script: |
     pwd
     ls
-    mkdir ./build
+    mkdir build
     ls
-    g++ ./src/hello-world.cpp
-#-g ./src/hello-world.cpp -o ./build/hello-world.exe
+    g++ -o ./build/hello-world.exe ./src/hello-world.cpp
   displayName: 'Run a build script'
 
 - script: |

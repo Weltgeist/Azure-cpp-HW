@@ -11,11 +11,11 @@ pool:
 
 steps:
 - script: |
-    g++ -g .\src\hello-world.cpp -o .\build\hello-world.exe
+    g++ -g ./src/hello-world.cpp -o ./build/hello-world.exe
   displayName: 'Run a build script'
 
 - script: |
-    .\build\hello-world.exe
+    ./build/hello-world.exe
   displayName: 'Run Display task'
 
 - script: |
